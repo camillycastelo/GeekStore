@@ -1,2 +1,2 @@
 # GeekStore
- Meu pimeiro site usando HTML e o básico de CSS - 2022.
+ Meu pimeiro site usando **HTML** e o básico de **CSS** - 2022.

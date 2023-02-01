@@ -1,0 +1,381 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Press+Start+2P&family=Secular+One&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #000000;
+}
+
+header{
+    background-color:#000000;
+    width: 100%;
+    height: 85px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.fixado{
+    position: fixed;
+}
+
+.logo{
+    width: 220px;
+    float: left;
+    padding: 14px 35px;
+}
+
+.conta{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 18px;
+}
+
+.conta a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: arial;
+}
+
+.conta a:hover{
+    color: #ff0000;
+}
+
+.search{
+    background-color: #ffffff;
+    height: 12px;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #000000;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.search-btn{
+    width: 60px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.carrinho{
+    width: 60px;
+}
+
+header{
+    background-color: #000000;
+    width: 100%;
+    height: 110px;
+    font-family:'Passion One';
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+
+header.dp-menu ul{
+    list-style-type: none;
+    padding:0px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+
+header.dp-menu ul li {
+    display:inline-block;
+    position: relative;
+}
+
+header.dp-menu ul li a{
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    padding: 7.5px 20px;
+    transition: background .5s;
+    font-size: 24px;
+}
+
+header.dp-menu ul li a:hover{
+    background-color: #ff0000;
+}
+
+header.dp-menu ul ul{
+    display: none;
+    position: absolute;
+}
+
+header.dp-menu ul li:hover ul{
+    display: block;
+    position: absolute;
+}
+
+
+#index{
+    background-color: #000000;
+    width: 100%;
+    height: 3600px;
+}
+
+.banda{
+    width: 1340px;
+    border: 9px solid #ffffff;
+}
+
+.index{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+#banda{
+    display: flex;
+    justify-content: center;
+}
+
+.banda:hover{
+    cursor: url(./images/maorock.cur), default;
+}
+
+div#rock:hover{
+    cursor: url(./images/maorock.cur), default;
+}
+
+h1.titulo{
+    color: #ffffff;
+    font-size: 26px;
+    font-family: 'Press Start 2P';
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.subtitulo{
+    color: #ffffff;
+    text-align: center;
+    font-family:'Secular One';
+    background-color: #ff0000;
+    font-size: 24px;
+    margin: 50px;
+}
+
+
+.starwars{
+    display: grid;
+    align-items: center;
+    justify-content:center;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 150px;
+    grid-row-gap:115px;
+
+    margin: 10px;
+    padding: 90px;
+}
+
+.container{
+    display: grid;
+    align-items: center;
+    justify-content:center;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 90px;
+    grid-row-gap:115px;
+
+    margin: 10px;
+    padding: 30px;
+}
+
+div.produtos{
+    width: 245px;
+    height: 330px;
+    background-color: #000000;
+    margin: 0px 0px 70px 0px;
+}
+
+div.produtos:hover{
+    transition: ease-in-out 0.6s;
+    transform: scale(1.09);
+    cursor: url(./images/maopreta.cur), default;
+}
+
+.btn{
+    padding: 5px;
+    width: 230px;
+    color: #000000;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.formatacao{
+    width: 230px;
+    height: 265px;
+    border:5px solid #ffffff;
+}
+
+.texto{
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.preco{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.banner{
+    width: 100%;
+    padding: 25px 0px;
+}
+
+#chamar{
+    color: #ccc7c7;
+    text-align: center;
+    font-size: 40px;
+    font-family:'passion one' ;
+}
+
+.bannerprodutos{
+    display: flex;
+    justify-content: center;
+}
+
+.cartaz{
+    border-radius: 50px;
+    margin: 30px 50px;
+    cursor: url(./images/maopreta.cur), default;
+    width: 550px;
+}
+
+
+footer{
+    background-color: #c9c9c9;
+    width: 100%;
+    height: 235px;
+    float:left;
+}
+
+.rodape{
+   display: flex;
+   justify-content:space-between;
+   padding: 50px 195px;
+}
+
+.rodapetit{
+    color: #ff0000;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.rodapetxt a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.rodapetxt a:hover{
+    color: #1d1d1d;
+}
+
+
+.redes{
+    height: 18px;
+}
+
+#nome{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.partes{
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Passion One' ;
+    background-color: #ffffff;
+    margin: 50px 40px;
+    padding: 2px;
+}
+
+.stranger{
+    width: 1000px;
+}
+
+.strangerdiv{
+    display: flex;
+    justify-content: center;
+}
+
+
+.form-txt{
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    font-size: 15px;
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+    border-radius:10px ;
+}
+
+.form-bnt{
+    height: 30px;
+    background-color: #ff0000;
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-bnt a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/*.search{
+    background-color: #ffffff;
+    height: 13px;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #000000;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.search-btn{
+    width: 60px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
